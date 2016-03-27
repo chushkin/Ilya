@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite news ...." parallel="none">
+   
+  <test name="Some collection for test news" preserve-order="true">
+    <classes>     
+      
+      <class name="tests.SomeTest" > 
+      	<methods>  	
+        	<include name="name_some_test_method"/>
+      	</methods>  
+      </class>        	
+              	
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

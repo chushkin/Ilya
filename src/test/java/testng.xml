@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="It run all steps from Sanity" parallel="none" preserve-order="true">  
+
+<!-- Setup all base parameters for tests -->
+ <parameter name="url_server"  value="https://dumbo.nanorep.com/console/login.html"/>
+ <parameter name="browser" value="firefox"/>
+   <suite-files>
+    		<!-- <suite-file path="suite/NewsSuiteTest.xml" />   --> 	   
+    		<suite-file path="suite/LoginSuite.xml" />       
+  </suite-files>   
+</suite> 
