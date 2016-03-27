@@ -7,6 +7,8 @@
  <parameter name="browser" value="firefox"/>
    <suite-files>
     		<!-- <suite-file path="suite/NewsSuiteTest.xml" />   --> 	   
-    		<suite-file path="suite/LoginSuite.xml" />       
+    		<suite-file path="suite/LoginSuite.xml" />     
+    		<suite-file path="suite/NewsSuiteTest.xml" />    
+    		<suite-file path="suite/ProductsTest.xml" />   
   </suite-files>   
 </suite> 

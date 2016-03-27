@@ -1,5 +1,6 @@
 package tests;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import components.common.AbstractBaseComponent;
@@ -19,5 +20,11 @@ public class LoginTest extends CommonBaseTest{
 		loginAs("skif.samorityanin@gmail.com", "123456");
 		productsCreatePage.assertCurrentPage();
 		productsCreatePage.gotoHomePage();
+	}
+	
+	@Test
+	@Parameters({"username", "password"})
+	public void test_2_loginWithParaeters(){
+		
 	}
 }

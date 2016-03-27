@@ -4,13 +4,16 @@
    
   <test name="some suite for test login and logout to system" preserve-order="true">
     <classes>     
-      
-      <class name="tests.LoginTest" > 
+         	
+      <class name="tests.CreateNewProductTest" > 
       	<methods>  	
-        	<include name="login"/>
+        	<include name="test_45_create_simple_product"/>
+        	<include name="test_45_create_simple__product_parametrs">
+        	    <parameter name="product_Name" value="some_name"/>
+        	    
+        	</include>
       	</methods>  
-      </class>        	
-      
+      </class>   	
       
     </classes>
   </test> <!-- Test -->

@@ -22,4 +22,9 @@ public class ProductsCreatePage extends BasePage{
 	protected void setUp() {
 		super.setUrl(PAGE_URL);
 	}
+
+	public boolean isCurrentPage() {
+		
+		return false;
+	}
 }
